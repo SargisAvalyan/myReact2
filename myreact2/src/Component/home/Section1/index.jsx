@@ -12,10 +12,7 @@ class Section1 extends React.Component {
                 You can feel free to download, edit and use this TemplateMo
                 layout for your commercial or non-commercial websites.
             </p>
-
         </div>
-
-
     }
 
 }

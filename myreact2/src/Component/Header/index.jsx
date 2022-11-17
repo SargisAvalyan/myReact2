@@ -4,7 +4,7 @@ import Home from "../home";
 import About from "../about-us";
 import Contact from "../contact-us";
 import "./style.scss"
-import { NavLink, Route, Switch } from "react-router-dom"
+import { NavLink, Redirect, Route, Switch } from "react-router-dom"
 
 class Header extends React.Component {
     render() {
@@ -15,14 +15,15 @@ class Header extends React.Component {
                     <NavLink activeClassName='P-active-header' to={'/about-us'}>About</NavLink>
                     <NavLink activeClassName='P-active-header' to={'/conotact'}>Contact</NavLink>
                 </ul>
-               
+
             </div>
-             <Switch>
-                    <Route path={"/home"} component={Home} />
-                    <Route path={"/about-us"} component={About}/>
-                    <Route path={"/conotact"} component={Contact}/>
- 
-                </Switch>
+            <Switch>
+                <Route path={"/home"} component={Home} />
+                <Route path={"/about-us"} component={About} />
+                <Route path={"/conotact"} component={Contact} />
+                <Redirect to={'/home'} />
+            </Switch>
+
 
         </header>
     }

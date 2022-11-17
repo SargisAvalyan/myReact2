@@ -2,9 +2,9 @@ import React from "react"
 import "./style.scss"
 
 
-class Menu1 extends React.Component {
+class Menu3 extends React.Component {
     render() {
-        return  <div className="p-menu1" >
+        return  <div className="p-menu3" >
                 
                 Pizza
                 
@@ -14,4 +14,4 @@ class Menu1 extends React.Component {
     }
 
 }
-export default Menu1
+export default Menu3
