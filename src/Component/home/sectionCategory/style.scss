@@ -1,0 +1,50 @@
+.section2-box{
+width: 100%;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: rgba(4, 163, 4, 0.774);
+    margin-left: 10px;
+    &.active{
+        background-color: rgba(163, 76, 4, 0.774);
+    }
+}
+.Categoryes{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+ .Categoryes li{
+width: 100px;
+height: 45px;
+list-style: none;
+background-color: white;
+color: green;
+border: 1.5px solid green;
+display: flex;
+align-items: center;
+justify-content: center;
+&.active{
+       background-color: green;
+    color: white;
+}
+}
+.Categoryes li:hover{
+    background-color: rgba(0, 128, 0, 0.623);
+    color: white;
+}
+.Food-boxs{
+    width: 100%;
+    min-height: 410px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    flex-wrap: wrap;
+}

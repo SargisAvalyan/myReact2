@@ -1,0 +1,26 @@
+.StaffAll{
+    width: 100%;
+    min-height: 410px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    flex-wrap: wrap;
+}
+.read-more{
+    width: 80%;
+    height: 1000px;
+    border: 100px solid white;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.read-more-back{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
