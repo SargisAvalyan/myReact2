@@ -84,7 +84,7 @@ class Registration extends React.Component {
                                 placeholder='First Name'
                                 className='P-inputs' type="text"
                             />
-                            {errorData.firstName ? <p className="errortext">{errorData.firstName}</p> : null}
+                            {errorData.firstName ? <p className="errortext">{errorData.lastName}</p> : null}
                         </label>
                     </div>
                     <div className="lastName">
