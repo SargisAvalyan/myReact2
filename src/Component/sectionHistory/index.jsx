@@ -6,7 +6,7 @@ class History extends React.Component {
 
     render() {
         return <section className="History-box">
-            <img className="HistoryImg" src={image} />
+            <img className="HistoryImg" src={image} alt="" />
 
             <div className="HistoryInfo">
                 <h4 className="G-History">

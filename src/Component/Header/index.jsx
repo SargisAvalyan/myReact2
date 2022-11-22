@@ -6,13 +6,14 @@ import Contact from "../contact-us";
 import Logo from "../../img/simple-house-logo.png"
 import "./style.scss"
 import { NavLink, Redirect, Route, Switch } from "react-router-dom"
+import Registration from "../registrationPage";
 
 class Header extends React.Component {
     render() {
         return <header>
             <div className="header-box" style={{ backgroundImage: `url('${Image1}')` }}>
                 <div className="logo">
-                 <img src={Logo}/>
+                 <img src={Logo} alt="logo"/>
                 </div>
                 <h2 className="G-title">
                     Simple House
@@ -21,6 +22,7 @@ class Header extends React.Component {
                     <NavLink activeClassName='P-active-header' to={'/home'}>Home</NavLink>
                     <NavLink activeClassName='P-active-header' to={'/about-us'}>About</NavLink>
                     <NavLink activeClassName='P-active-header' to={'/conotact'}>Contact</NavLink>
+                    <NavLink activeClassName='P-active-header' to={'/registration'}>Registration</NavLink>
                 </ul>
 
             </div>
@@ -28,6 +30,7 @@ class Header extends React.Component {
                 <Route path={"/home"} component={Home} />
                 <Route path={"/about-us"} component={About} />
                 <Route path={"/conotact"} component={Contact} />
+                <Route path={"/registration"} component={Registration} />
                 <Redirect to={'/home'} />
             </Switch>
 

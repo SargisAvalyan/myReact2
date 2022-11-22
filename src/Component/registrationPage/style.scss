@@ -1,0 +1,71 @@
+.G-container{
+background-color: rgba(5, 61, 5, 0.171);
+}
+.P-inputs{
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    position: relative;
+}
+.user{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputname{
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+}
+.P-inputs-company{
+    width: 80%;
+    width: 800px;
+    height: 60px;
+    border-radius: 10px;
+}
+.P-inputscode{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+}
+.inputfinish{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.userfinish{
+    margin: 30px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    
+}
+.fin{
+    
+    height: auto;
+    display: flex;
+
+}
+.regbutton{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(202, 49, 49);
+    color: white;
+}
+.regbutton:hover{
+    background-color: rgba(202, 49, 49, 0.596); ;
+}
+.errortext{
+    width: 400px;
+    height: 60px;
+    color: red;
+    position: absolute;
+}

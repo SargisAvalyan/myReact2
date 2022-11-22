@@ -7,9 +7,8 @@
     flex-wrap: wrap;
 }
 .read-more{
-    width: 80%;
-    height: 1000px;
-    border: 100px solid white;
+    width: 100%;
+    height: 200px;
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
@@ -18,9 +17,4 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.read-more-back{
-    width: 100%;
-    height: 800px;
-    background-color: white;
 }

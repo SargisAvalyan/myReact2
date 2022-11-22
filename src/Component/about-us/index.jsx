@@ -38,30 +38,38 @@ class AboutUs extends React.Component {
         staffinfo: "Founder and CEO",
         personinfo: "Vivamus cursus leo nec sem feugiat sagittis. Duis ut feugiat odio, sit amet accumsan odio."
       },
+    ], 
+    info: [
+      {
+        
+      }
     ]
   }
   render() {
     return <section>
-      <SectionInfo title="About Simple House"
-        description="This is about page of simple house template. 
+      <div className="G-container">
+
+        <SectionInfo title="About Simple House"
+          description="This is about page of simple house template. 
       You can modify and use this HTML 
       template for your website. 
       Total 3 HTML pages included in this template. Header image has a parallax effect."/>
-      <div className="StaffAll">
-        {this.state.persons.map((item, index) => (
-          <Staff
-            persons={item}
-            key={index}
-          />
-        ))}
-      </div>
-      <div className="read-more" style={{ backgroundImage: `url('${Image1}')` }} >
-        <div className="read-more-back" >
-          <div className="read-more-info" >
+        <div className="StaffAll">
+          {this.state.persons.map((item, index) => (
+            <Staff
+              persons={item}
+              key={index}
+            />
+          ))}
+        </div>
+        <div className="G-flex">
+          <div className="G-padding-50">
+            <div className="read-more" style={{ backgroundImage: `url('${Image1}')` }} >
+
+            </div>
 
           </div>
         </div>
-
       </div>
     </section>
   }
