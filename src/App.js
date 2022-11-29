@@ -1,9 +1,10 @@
 import './App.css';
-import Conteiner from './Components';
+import Inputes from './Components/homeworkInputs';
 function App() {
   return (
     <div className="App">
-      <Conteiner/>
+      
+      <Inputes/>
     </div>
   );
 }
