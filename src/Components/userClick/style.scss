@@ -1,0 +1,29 @@
+.G-compo{
+    width: 1000px;
+    max-height: 200px;
+    height: 70px;
+    border: 15px solid rgb(211, 214, 22);
+   
+}
+.user-button{
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+    color: white;
+    &:hover{
+        background-color: rgba(184, 22, 62, 0.938);
+        transition: 0.5s;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+.userName{
+    height: 130px;
+    font-size: 30px;
+    background-color: blue;
+    color: rgb(73, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 2s;
+}

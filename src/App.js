@@ -1,10 +1,15 @@
 import './App.css';
-import Inputes from './Components/homeworkInputs';
+import FontSIzeChanger from './Components/fontsizeChanger';
+import InputValues from './Components/Inputes';
+import NumberList from './Components/numberlist';
+import Compo from './Components/userClick';
 function App() {
   return (
     <div className="App">
-      
-      <Inputes/>
+       <Compo/> 
+   <FontSIzeChanger/> 
+   <InputValues/>
+   <NumberList/>
     </div>
   );
 }
